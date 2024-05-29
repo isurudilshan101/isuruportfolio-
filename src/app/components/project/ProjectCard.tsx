@@ -14,7 +14,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
   return (
     <div className="border border-white rounded-lg mb-8 md:h-72">
       <div className="flex flex-col md:flex-row items-center ">
-        <div className="w-full md:w-1/2 h-full">
+        <div className="w-full ml-2 md:w-1/2 h-full">
           <Image
             src={project.image}
             alt={project.title}
