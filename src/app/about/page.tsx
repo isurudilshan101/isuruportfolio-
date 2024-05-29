@@ -81,7 +81,7 @@ const page = () => {
           Lanka. I have a 2+ years of extensive experience in software
           development as a software engineer. Mainly Specialized in JavaScript &
           TypeScript. A highly motivated and a hard working individual who has a
-          passion or computer science and who loves to learn new technologies.
+          passion of computer science and who loves to learn new technologies.
           Seeking an opportunity to gain more experience to become a qualified
           professional in the industry..
         </p>
