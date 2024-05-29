@@ -12,9 +12,9 @@ interface Project {
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
   return (
-    <div className="border border-white rounded-lg mb-8 md:h-72">
-      <div className="flex flex-col md:flex-row items-center ">
-        <div className="w-full ml-2 md:w-1/2 h-full">
+    <div className="border border-white rounded-lg mb-8  ">
+      <div className="flex flex-col lg:flex-row items-center ">
+        <div className="w-full mt-2 ml-2 md:w-1/2 h-full">
           <Image
             src={project.image}
             alt={project.title}
@@ -26,7 +26,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
         <div className="w-full md:w-1/2 p-6 flex flex-col justify-between">
           <div>
             <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
-            <div className="h-36">
+            <div className="">
               <p className="text-white mb-4 ">{project.description}</p>{" "}
             </div>
 
@@ -34,7 +34,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="bg-blue-500 text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded"
+                  className="bg-blue-500 text-white text-xs font-semibold mb-2 mr-2 px-2.5 py-0.5 rounded"
                 >
                   {tech}
                 </span>

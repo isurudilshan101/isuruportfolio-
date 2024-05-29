@@ -29,7 +29,6 @@ const Projects = () => {
       githubLink: "https://github.com/username/project2",
       liveLink: "https://project2.com",
     },
-    // Add more projects as needed
   ];
 
   return (
