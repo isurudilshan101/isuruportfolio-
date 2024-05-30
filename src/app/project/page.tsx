@@ -12,7 +12,7 @@ const Projects = () => {
       liveLink: "https://cargohub.netlify.app/",
     },
     {
-      title: "Simple ToDo APP",
+      title: "ToDo APP",
       description:
         "Efficiently manage tasks with ease through our intuitive interface, enabling seamless addition, deletion, and completion tracking for enhanced productivity.",
       image: "/projects_img/todoproject.png",
@@ -31,7 +31,7 @@ const Projects = () => {
     },
 
     {
-      title: "AI Tech Lab Web Site",
+      title: "PHAMACY SYSTEM",
       description:
         "User can register and login and Upload prescriptions and admin can view uploaded prescriptions and can prepare quotations for the uploaded prescriptions.",
       image: "/projects_img/phamacproject.png",
