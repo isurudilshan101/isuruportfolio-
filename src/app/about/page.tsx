@@ -14,7 +14,7 @@ const page = () => {
           </div>
 
           <div className="w-48 h-48 ">
-            <Image src={aboutme} alt="aboutme" />
+            {/* <Image src={aboutme} alt="aboutme" /> */}
           </div>
         </div>
 

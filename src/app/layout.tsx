@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Hero />
         <div className="flex">
-          <div className="overflow-y-auto max-h-screen custom-scrollbar">
+          <div className="overflow-y-auto max-h-screen custom-scrollbar ">
             <NavVerti />
           </div>
           <div className="w-full overflow-y-auto max-h-screen custom-scrollbar">
