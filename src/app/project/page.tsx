@@ -29,6 +29,16 @@ const Projects = () => {
       githubLink: "https://github.com/isurudilshan101/react_web_site",
       liveLink: "https://aitechlab.netlify.app/",
     },
+
+    {
+      title: "AI Tech Lab Web Site",
+      description:
+        "User can register and login and Upload prescriptions and admin can view uploaded prescriptions and can prepare quotations for the uploaded prescriptions.",
+      image: "/projects_img/phamacproject.png",
+      technologies: ["Laravel", "PHP", "Bootstrap", "MySql"],
+      githubLink: "https://github.com/isurudilshan101/pharmacy-web-app",
+      liveLink: "#",
+    },
   ];
 
   return (
