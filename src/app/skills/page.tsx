@@ -61,7 +61,7 @@ const Page: React.FC = () => {
         <h1 className="mt-4 ml-6 text-4xl font-bold mb-8">SKILLS</h1>
       </div>
 
-      <div className="flex flex-col md:flex-row md:justify-center md:items-center h-screen">
+      <div className="flex flex-col md:flex-row md:justify-center   h-screen">
         <div className="flex flex-col md:flex-row gap-4 md:gap-24">
           <div className="left flex flex-col">
             {generateSkillItems(leftSkills)}
