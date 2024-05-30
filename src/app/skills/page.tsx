@@ -16,18 +16,31 @@ interface Skill {
 // Define an array of skill objects, each with a name and image
 const skills: Skill[] = [
   { name: "HTML", image: html },
+  { name: "CSS", image: javascript },
   { name: "JavaScript", image: javascript },
+  { name: "Type Script", image: nextjs },
   { name: "React Js", image: reactjs },
+  { name: "Redux", image: reactjs },
   { name: "Next Js", image: nextjs },
+  { name: "Zustand", image: reactjs },
+  { name: "Node Js", image: nextjs },
+  { name: "Python", image: nextjs },
+  { name: "Tailwnid Css", image: nextjs },
+  { name: "Ant Design", image: nextjs },
+  { name: "Material UI", image: nextjs },
+  { name: "Bootstrap", image: nextjs },
+  { name: "PHP", image: nextjs },
+  { name: "Laravel", image: nextjs },
+  { name: "Bootstrap", image: nextjs },
+  { name: "Mysql", image: nextjs },
+  { name: "Mongodb", image: nextjs },
 ];
 
 const Page: React.FC = () => {
-  // Split the skills array into two for left and right columns
   const half = Math.ceil(skills.length / 2);
   const leftSkills = skills.slice(0, half);
   const rightSkills = skills.slice(half);
 
-  // Generate JSX elements for each skill
   const generateSkillItems = (skillsArray: Skill[]) =>
     skillsArray.map((skill, i) => (
       <div key={i} className="ml-6 flex gap-6 mb-4">
@@ -35,7 +48,7 @@ const Page: React.FC = () => {
           <h1 className="text-2xl">{skill.name}</h1>
         </div>
         <Image
-          className={`${styles.image} ${styles.animateSpinSlow}`}
+          className={`  ${styles.image} ${styles.animateSpinSlow}`}
           src={skill.image}
           alt={skill.name}
         />
@@ -48,7 +61,7 @@ const Page: React.FC = () => {
         <h1 className="mt-4 ml-6 text-4xl font-bold mb-8">SKILLS</h1>
       </div>
 
-      <div className="flex flex-col items-center md:flex-row md:justify-center md:items-center h-screen">
+      <div className="flex flex-col md:flex-row md:justify-center md:items-center h-screen">
         <div className="flex flex-col md:flex-row gap-4 md:gap-24">
           <div className="left flex flex-col">
             {generateSkillItems(leftSkills)}

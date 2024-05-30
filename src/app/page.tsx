@@ -14,12 +14,16 @@ export default function Home() {
   return (
     <div className="flex items-center justify-center text-center h-screen">
       <div>
-        <h2 className="text-white text-4xl">
+        <h2 className="text-white text-4xl mb-4">
           Hi, I am{" "}
-          <span className="text-blue-950 font-extrabold">Isuru Dilshan</span>{" "}
+          <span className="text-5xl text-blue-800 font-extrabold">
+            Isuru Dilshan
+          </span>{" "}
         </h2>
-        <h2 className="text-white text-3xl">Software Engineer</h2>
-        <div className="flex gap-2 justify-center text-center">
+        <h2 className="mb-4 text-white text-4xl font-bold">
+          Software Engineer
+        </h2>
+        <div className="flex gap-6 justify-center text-center">
           <Link href="#">
             <FontAwesomeIcon
               icon={faFacebook}

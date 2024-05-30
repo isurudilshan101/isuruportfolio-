@@ -29,12 +29,12 @@ const Experience = () => {
             className="flex flex-col md:flex-row md:space-x-4 mb-6"
           >
             <div className="md:w-1/4 mb-2 md:mb-0">
-              <p className="font-semibold text-gray-700">{experience.years}</p>
+              <p className="font-semibold text-gray-300">{experience.years}</p>
             </div>
             <div className="md:w-3/4">
               <h2 className="text-2xl font-semibold">{experience.company}</h2>
-              <p className="text-gray-600">{experience.role}</p>
-              <p className="text-gray-600">{experience.description}</p>
+              <p className="text-gray-400">{experience.role}</p>
+              <p className="text-gray-400">{experience.description}</p>
               {index < experiences.length - 1 && (
                 <hr className="mt-4 border-t border-gray-300" />
               )}

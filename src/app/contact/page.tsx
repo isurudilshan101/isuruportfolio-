@@ -18,18 +18,19 @@ const Contact = () => {
           <h1 className="text-4xl font-bold mb-4 border-b-4 border-gray-300 pb-2">
             Contact Me
           </h1>
-          <div className="flex items-center justify-center md:justify-start space-x-4 bg-blue-500 p-4 rounded-lg">
+          <div className="flex gap-4 items-center justify-center md:justify-start space-x-4b bg-gray-950 p-4 rounded-lg">
             <FaEnvelope className="text-2xl text-white" />
             <p className="text-lg text-white">isuru.dilshan101@gmail.com</p>
           </div>
-          <div className="flex items-center justify-center md:justify-start space-x-4 bg-blue-500 p-4 rounded-lg">
+          <div className="flex items-center justify-center md:justify-start space-x-4  bg-gray-950 p-4 rounded-lg">
             <FaPhone className="text-2xl text-white" />
-            <p className="text-lg text-white">0712859953</p>
+            <p className="text-lg text-white">0712859953 | 0764069953</p>
           </div>
-          <div className="flex items-center justify-center md:justify-start space-x-4 bg-blue-500 p-4 rounded-lg">
+          <div className="flex items-center justify-center md:justify-start space-x-4 bg  bg-gray-950 p-4 rounded-lg">
             <FaMapMarkerAlt className="text-2xl text-white" />
             <p className="text-lg text-white">
-              NO:705, 19 Division Handungamuwa, Matale, Sri Lanka
+              {/* NO:705, 19 Division Handungamuwa, Matale, Sri Lanka */}
+              Kanda Uda Niwasa, Inguruwatta, Pahala Diyadora, Kuliyapitiya.
             </p>
           </div>
         </div>

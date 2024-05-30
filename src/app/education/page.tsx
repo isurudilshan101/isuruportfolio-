@@ -30,12 +30,12 @@ const Education = () => {
             className="flex flex-col md:flex-row md:space-x-4 mb-6"
           >
             <div className="md:w-1/4 mb-2 md:mb-0">
-              <p className="font-semibold text-gray-700">{school.years}</p>
+              <p className="font-semibold text-gray-300">{school.years}</p>
             </div>
             <div className="md:w-3/4">
               <h2 className="text-2xl font-semibold">{school.name}</h2>
-              <p className="text-gray-600">{school.degree}</p>
-              <p className="text-gray-600">{school.description}</p>
+              <p className="text-gray-400">{school.degree}</p>
+              <p className="text-gray-400">{school.description}</p>
               {index < schools.length - 1 && (
                 <hr className="mt-4 border-t border-gray-300" />
               )}
