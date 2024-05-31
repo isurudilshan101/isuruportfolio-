@@ -43,7 +43,7 @@ const Projects = () => {
       title: "Wheather App",
       description:
         "Welcome to our currency conversion app, where you can effortlessly convert your currencies with ease. Simply input the date, select your source and target currencies, and enter the amount in the source currency.Experience seamless currency conversions today!",
-      image: "/projects_img/phamacproject.png",
+      image: "/projects_img/weatherappproject.png",
       technologies: ["React Js", "API"],
       githubLink: "https://github.com/isurudilshan101/find_weather",
       liveLink: "https://climatetrackerapp.netlify.app/",
