@@ -49,13 +49,13 @@ const Projects = () => {
       liveLink: "https://climatetrackerapp.netlify.app/",
     },
     {
-      title: "currency Converter App",
+      title: "Currency Converter App",
       description:
         "This is the responsive currency conversion app, where you can effortlessly convert your currencies with ease. Experience seamless currency conversions today!",
       image: "/projects_img/currencyconvertapp.png",
       technologies: ["React Js", "API", "Express", "Tailwind Css"],
       githubLink: "https://github.com/isurudilshan101/currency_convert_app",
-      liveLink: "#",
+      liveLink: "https://convetcurrency.netlify.app/",
     },
   ];
 
