@@ -35,7 +35,7 @@ const Projects = () => {
       description:
         "User can register and login and Upload prescriptions and admin can view uploaded prescriptions and can prepare quotations for the uploaded prescriptions.",
       image: "/projects_img/phamacproject.png",
-      technologies: ["Laravel", "PHP", "Bootstrap", "MySql"],
+      technologies: ["Laravel", "PHP", "Bootstrap", "MySql", "AJAX", "JQUERY"],
       githubLink: "https://github.com/isurudilshan101/pharmacy-web-app",
       liveLink: "#",
     },
