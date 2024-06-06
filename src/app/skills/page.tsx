@@ -4,7 +4,19 @@ import javascript from "../../../public/js.jpg";
 import html from "../../../public/html.jpg";
 import nextjs from "../../../public/nextjs.png";
 import reactjs from "../../../public/reactjs.jpg";
-
+import mysql from "../../../public/mysql.png";
+import bootstrap from "../../../public/bootstrap.png";
+import typescript from "../../../public/typescript.png";
+import redux from "../../../public/redux.png";
+import zustand from "../../../public/zustand.png";
+import nodejs from "../../../public/nodejs.png";
+import python from "../../../public/python.png";
+import tailwind from "../../../public/tailwind.png";
+import ant from "../../../public/ant.png";
+import material from "../../../public/material.png";
+import php from "../../../public/php.png";
+import laravel from "../../../public/laravel.png";
+import mongodb from "../../../public/mongodb.png";
 import styles from "./page.module.css";
 
 // Define the type for skill objects
@@ -18,22 +30,21 @@ const skills: Skill[] = [
   { name: "HTML", image: html },
   { name: "CSS", image: javascript },
   { name: "JavaScript", image: javascript },
-  { name: "Type Script", image: nextjs },
+  { name: "Type Script", image: typescript },
   { name: "React Js", image: reactjs },
-  { name: "Redux", image: reactjs },
+  { name: "Redux", image: redux },
   { name: "Next Js", image: nextjs },
-  { name: "Zustand", image: reactjs },
-  { name: "Node Js", image: nextjs },
-  { name: "Python", image: nextjs },
-  { name: "Tailwnid Css", image: nextjs },
-  { name: "Ant Design", image: nextjs },
-  { name: "Material UI", image: nextjs },
-  { name: "Bootstrap", image: nextjs },
-  { name: "PHP", image: nextjs },
-  { name: "Laravel", image: nextjs },
-  { name: "Bootstrap", image: nextjs },
-  { name: "Mysql", image: nextjs },
-  { name: "Mongodb", image: nextjs },
+  { name: "Zustand", image: zustand },
+  { name: "Node Js", image: nodejs },
+  { name: "Python", image: python },
+  { name: "Tailwnid Css", image: tailwind },
+  { name: "Ant Design", image: ant },
+  { name: "Material UI", image: material },
+  { name: "Bootstrap", image: bootstrap },
+  { name: "PHP", image: php },
+  { name: "Laravel", image: laravel },
+  { name: "Mysql", image: mysql },
+  { name: "Mongodb", image: mongodb },
 ];
 
 const Page: React.FC = () => {
