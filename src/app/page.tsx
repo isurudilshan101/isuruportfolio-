@@ -36,12 +36,22 @@ export default function Home() {
               className="fa-2x text-blue-500 hover:text-blue-700"
             />
           </Link>{" "}
-          <Link href="#">
+          {/* <Link href="#">
             <FontAwesomeIcon
               icon={faLinkedin}
               className="fa-2x text-blue-500 hover:text-blue-700"
             />
-          </Link>
+          </Link> */}
+          <a
+            href="https://www.linkedin.com/in/isuru-dilshan-b270a5184"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              className="fa-2x text-blue-500 hover:text-blue-700"
+            />
+          </a>
           {/* 
           <FontAwesomeIcon
             icon={faGithub}
