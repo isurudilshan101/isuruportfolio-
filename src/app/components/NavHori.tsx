@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import my_prof from "../../../public/my_prof.png";
+import my_prof from "../../../public/my_prof_new.png";
 import Link from "next/link";
 
 const NavVerti = () => {
@@ -15,11 +15,11 @@ const NavVerti = () => {
     <div className="flex h-screen">
       <div className="w-64 hidden lg:flex bg-gray-900 overflow-y-auto max-h-screen  custom-scrollbar nav-verti relative">
         {/* overflow-y-auto max-h-screen custom-scrollbar bg-gray-900 */}
-        <div className="ml-10">
+        <div className="ml-2">
           <div className="justify-left">
             <Image src={my_prof} alt="myimage" className="w-48 h-48" />
           </div>
-          <div className="flex justify-left">
+          <div className="flex justify-left ml-6">
             <ul>
               <Link href="/">
                 <li className="hover:bg-blue-500 hover:text-white w-full md:w-40 h-10 my-5 px-5">
