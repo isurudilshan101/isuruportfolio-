@@ -16,7 +16,7 @@ const NavVerti = () => {
       <div className="w-64 hidden lg:flex bg-gray-900 overflow-y-auto max-h-screen  custom-scrollbar nav-verti relative">
         {/* overflow-y-auto max-h-screen custom-scrollbar bg-gray-900 */}
         <div className="">
-          <div className="justify-left ml-2">
+          <div className="justify-left ml-2 mt-2">
             <Image src={my_prof} alt="myimage" className="w-48 h-48" />
           </div>
           <div className="flex justify-left ml-6">
