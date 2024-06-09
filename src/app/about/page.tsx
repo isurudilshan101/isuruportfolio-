@@ -35,7 +35,7 @@ const page = () => {
                 </div>
 
                 <div className="flex">
-                  <span className="w-32 font-semibold">Address</span>
+                  <span className="w-48 font-semibold">Address</span>
                   <span className="mr-2"> :</span>
                   {/* <span>No: 705, 19 Division, Handungamuwa, Matale</span> */}
 
