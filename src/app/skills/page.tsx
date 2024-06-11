@@ -17,6 +17,8 @@ import material from "../../../public/material.png";
 import php from "../../../public/php.png";
 import laravel from "../../../public/laravel.png";
 import mongodb from "../../../public/mongodb.png";
+import git from "../../../public/git.png";
+
 import styles from "./page.module.css";
 
 // Define the type for skill objects
@@ -45,6 +47,7 @@ const skills: Skill[] = [
   { name: "Laravel", image: laravel },
   { name: "Mysql", image: mysql },
   { name: "Mongodb", image: mongodb },
+  { name: "GIT", image: git },
 ];
 
 const Page: React.FC = () => {
